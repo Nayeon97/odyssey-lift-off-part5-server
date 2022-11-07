@@ -13,6 +13,7 @@
     "graphql": "^15.5.1"
   },
   "devDependencies": {
+    "@apollo/rover": "^0.9.1",
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   },
