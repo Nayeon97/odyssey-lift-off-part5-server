@@ -23,7 +23,7 @@ const typeDefs = gql`
     "Human-readable message for the UI"
     message: String!
     "Newly updated track after a successful mutation"
-    track: Track
+    track: Track!
   }
 
   "A track is a group of Modules that teaches about a specific topic"
@@ -68,7 +68,6 @@ const typeDefs = gql`
     content: String
     "The module's video url, for video-based modules"
     videoUrl: String
-    durationInSeconds: Int
   }
 `;
 
